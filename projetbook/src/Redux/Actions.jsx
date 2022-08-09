@@ -75,7 +75,7 @@ export const searchBooksActionErrors=(err)=>{
     }
 }
 
-const cle="AIzaSyAt3bzdOfFhI69z89AtEm_Wg_biRTolbcA";
+const cle="enter your key google";
 export const apigoogleBook=(titre)=>{
     return(dispatch)=>{
         dispatch(searchBooksAction());
